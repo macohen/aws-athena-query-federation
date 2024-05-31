@@ -13,6 +13,7 @@ jobs:
         stale-pr-label: 'stalled'
         stale-pr-message: 'This PR is stalled because it has been open for 1 days with no activity.'
         days-before-stale: 1
+        response-requested-label: response-requested
         repo-token: ${{ secrets.GITHUB_TOKEN }}
 
         loglevel: DEBUG
