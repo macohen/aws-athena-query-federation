@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 jobs:
   build-and-deploy:
     runs-on: aws-athena-query-federation_ubuntu-latest_16-core
